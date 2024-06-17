@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  background: #bfa5ac;
+  display: flex;
+}
+#part1 {
+  height: 100%;
+  width: 26%;
+  /* background-color: blue; */
+}
+#part2 {
+  height: 100%;
+  width: 67%;
+  background-color: black;
+  background-image: url("https://images.unsplash.com/photo-1519699047748-de8e457a634e?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+background-size: cover;
+background-position: center;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(57, 44, 44, 0.269);
+}
+#part3 {
+  height: 100%;
+  width: 6%;
+}
+#text-div{
+    height: 300px;
+    position: absolute;
+    width: 400px;
+    left: 7%;
+    top:50% ;
+    transform: translate(0 , -15%);
+
+}
+#text-div h1{
+    font-size: 85px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    line-height: 78px ;  
+    color: #fff;
+    /* jitni bda font size utni badi line-height */
+}
+#smallImg-div{
+  height: 400px;
+  width: 300px;
+  background-image: url("https://images.unsplash.com/photo-1523297736436-356615162cc8?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translate(0 , -50%);
+}
+#vertical-text{
+  position: absolute;
+  right: -77%;
+  top: -6%;
+  transform: rotate(90deg);
+  transform-origin: 0% 0%;
+ 
+  
+   
+}
+#vertical-text h1{
+  font-size: 70px;
+  font-weight: 900;
+  letter-spacing: 15px;
+  color: transparent;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #fff;
+}
+#nav{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 350px;
+  left: 7%;
+  top: 5%;
+
+}
+#nav img{
+  height: 55px;
+}
+ #nav h5{
+  font-size: 20px;
+  color: #fff;
+  font-family: "gilroy";
+ }

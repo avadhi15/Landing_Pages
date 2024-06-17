@@ -1,0 +1,10 @@
+
+#main - parent element it will works like a wrapper jese chocolate ko protect krta hai wese wrapper
+
+*display flex - parent ko flex ka mtlb parent k teen children h saare 
+ek line se  neeche aare h but when we use display flex ythey will be in a 
+single row 
+
+*position absolute- element ke opur aata h 
+
+*stroke- text ke upr boundray bnti h
